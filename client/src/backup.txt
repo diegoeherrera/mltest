@@ -1,0 +1,19 @@
+
+
+    tereso () {
+        console.log("ingresaste")
+       /* this.setState({
+            querySearch:e.target.value
+        })*/
+    }
+
+    sendQuery(){
+
+        console.log("you entered: ", this.state.search+" URL:"+`http://localhost:3030/${this.state.search}`)
+
+        //this.props.queryValue(this.state.querySearch)
+    }
+
+
+      //https://api.mercadolibre.com/sites/MLA/search?q=ipod SEARCH
+  //https://api.mercadolibre.com/items/MLA603701702 GET ITEM
